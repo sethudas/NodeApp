@@ -1,5 +1,5 @@
 node {
-    def app
+    def docker = "app"
 
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
